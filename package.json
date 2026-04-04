@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "factorio-test-cli": "file:./FactorioTest/cli"
+  },
+  "scripts": {
+    "build:cli": "npm run build --prefix FactorioTest/cli && chmod +x FactorioTest/cli/cli.js",
+    "test": "factorio-test run -p . --factorio-path \"/mnt/c/Program Files (x86)/Steam/steamapps/common/Factorio/bin/x64/factorio.exe\"",
+    "test:watch": "factorio-test run -p . --watch --factorio-path \"/mnt/c/Program Files (x86)/Steam/steamapps/common/Factorio/bin/x64/factorio.exe\""
+  }
+}

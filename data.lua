@@ -1,0 +1,2 @@
+-- data.lua
+-- Prototype definitions run at game startup before any world is loaded.
